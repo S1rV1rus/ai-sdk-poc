@@ -1,6 +1,6 @@
 'use server';
 
-import { createAI, getMutableAIState } from '@vercel/ai/rsc';
+import { createAI, getMutableAIState } from '@ai-sdk/rsc';
 import { generateText } from 'ai';
 import { openai } from '@ai-sdk/openai';
 

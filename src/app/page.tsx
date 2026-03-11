@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useActions, useUIState, useAIState } from '@vercel/ai/rsc';
+import { useActions, useUIState, useAIState } from '@ai-sdk/rsc';
 import type { AI } from './action';
 
 export default function Page() {
